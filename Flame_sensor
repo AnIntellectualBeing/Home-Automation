@@ -12,12 +12,12 @@ void loop() {
   isFlame = digitalRead(FlamePin);
   if (isFlame== LOW)  
   {
-    Serial.println("FLAME is one"); 
+    Serial.println("FLAME is on"); 
     digitalWrite(LED, HIGH);  
   }
   else                           
   {                               
-    Serial.println("no flame"); 
+    Serial.println("No Flame"); 
     digitalWrite(LED, LOW);    
   }
 }
