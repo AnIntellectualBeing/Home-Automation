@@ -14,10 +14,12 @@ void loop() {
   {
     Serial.println("FLAME is on"); 
     digitalWrite(LED, HIGH);  
+    delay(1000);
   }
   else                           
   {                               
     Serial.println("No Flame"); 
-    digitalWrite(LED, LOW);    
+    digitalWrite(LED, LOW); 
+    delay(1000);
   }
 }
